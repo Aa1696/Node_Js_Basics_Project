@@ -1,12 +1,20 @@
 {
-  "name": "node_js",
+  "name": "node_js_tutorial",
   "version": "1.0.0",
-  "description": "",
+  "description": "node js using npm and with external or global module",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "sonu mahto",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aa1696/Node_Js_Basics_Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aa1696/Node_Js_Basics_Project/issues"
+  },
+  "homepage": "https://github.com/Aa1696/Node_Js_Basics_Project#readme"
 }
