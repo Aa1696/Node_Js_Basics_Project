@@ -4,7 +4,8 @@
   "description": "node js using npm and with external or global module",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "sonu mahto",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Aa1696/Node_Js_Basics_Project/issues"
   },
-  "homepage": "https://github.com/Aa1696/Node_Js_Basics_Project#readme"
+  "homepage": "https://github.com/Aa1696/Node_Js_Basics_Project#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
