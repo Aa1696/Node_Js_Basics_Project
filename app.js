@@ -11,15 +11,15 @@ const db = require('./util/database');
 
 const app = express();
 
-db.execute('select * from product').then((result) => {
-    console.log(result);
-}).catch((err) => {
-    console.log(err);
-});
+// db.execute('select * from product').then((result) => {
+//     console.log(result);
+// }).catch((err) => {
+//     console.log(err);
+// });
 
 app.use(body_parser.urlencoded({ extended: false }));
 
-app.use('/admin', adminroutes);
+app.use('/admin', adminroutes.router);
 app.use(shoproutes);
 app.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, 'views', '404.html'));
